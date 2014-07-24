@@ -1,0 +1,22 @@
+{
+    "name": "ntzwbr/phileBootstrap",
+    "type": "phile-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Use an extended cebe/markdown parser in Phile.",
+    "homepage": "http://philecms.com",
+    "keywords": ["cms", "phile", "content"],
+    "authors": [
+        {
+            "name": "Andreas Neumann",
+            "email": "a.neumann@netzweberei.de",
+            "homepage": "http://netzweberei.de/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ntzwbr/markdown": "*",
+        "phile-cms/phile": ">=1",
+        "phile-cms/plugin-installer-plugin": ">=1"
+    }
+}
