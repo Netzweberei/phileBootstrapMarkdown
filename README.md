@@ -5,7 +5,7 @@ A new Flavor to cebe/markdown inspired by https://github.com/dreikanter/markdown
 
 ### 1.1 Installation (composer)
 ```
-php composer.phar require ntzwbr/phileBootstrap:*
+php composer.phar require ntzwbr/phile-bootstrap:dev-master
 ```
 
 ### 1.2 Installation (Download)
@@ -20,7 +20,7 @@ After you have installed the plugin. You need to add the following line to your 
 ```php
 $config['plugins'] = array(
   'phile\\parserMarkdown' => array('active' => false), // disable the default parser
-  'ntzwbr\\philebootstrap' => array('active' => true) // use parsedown
+  'ntzwbr\\phileBootstrap' => array('active' => true) // use parsedown
 );
 ```
 ### 3. Usage
